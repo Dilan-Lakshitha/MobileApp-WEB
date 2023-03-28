@@ -1,0 +1,234 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/**========nav bar=========*/
+.header-outer {
+    background-color: white;
+    position: sticky;
+    z-index: 500;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+}
+.header-right > ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-right > ul > li {
+    margin-right: 8px;
+    border-bottom: 3px solid transparent;
+    padding: 5px 15px;
+}
+
+.header-right > ul > li:last-child {
+    margin-right: 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right > ul > li > a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.header-right > ul > li:hover {
+    border-bottom: 3px solid #d35400;
+    cursor: pointer;
+}
+/**========home page=======*/
+.main-outer{
+    border:1px solid #2CCCC4;
+    background-color: #2CCCC4;
+    width: 100%;
+    height: 130vh;
+}
+.main-inner{
+    width: 70%;
+    height: 800px;
+    margin: 5% 15%;
+    overflow: hidden;
+}
+picture{
+    margin: 126px auto 23px;
+    position:absolute;
+    z-index: 1;
+}
+.header{
+    position: absolute;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    font-size: 6rem;
+    font-weight: 700;
+    word-wrap: break-word;
+    font-family: Roboto,sans-serif;
+    display: block;
+    padding-left: 680px;
+    padding-top: 150px;
+}
+.box-repeat{
+    display: grid;
+    min-height: 400px;
+    grid-template-columns: repeat(2, calc(50% - 15px));
+    grid-template-rows: repeat(1, auto);
+    width: 550px;
+    grid-gap: 30px;
+    margin: -238px 0 600px 750px;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: left;
+    justify-content: left;
+}
+.box1{
+    background-color: white;
+    box-shadow: 5px 5px 20px 0 rgb(41 51 42 / 40%);
+    position:relative;
+}
+.h3{
+    color: #2CCCC4;
+    text-align:center;
+    justify-content: center;
+    font-weight: 700;
+    margin: 130px 75px;
+    position: absolute;
+}
+.shape-1{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid #2CCCC6;
+    background-color: #C3EAC6;
+    position: absolute;
+    margin: 35px 95px;
+}
+.read-outer{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.read-inner{
+    width: 70%;
+    height: 600px;
+    margin: 7% 5%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.read-container{
+    width: 30%;
+    height: 500px;
+    margin:5%;
+    position: sticky;
+}
+.read-head{
+    margin-bottom: 20%;
+    font-size: 4rem;
+    font-weight: 1900;
+}
+.read-p{
+    word-wrap: break-word;
+    font-family: Arial, serif;
+    font-size: large;
+    line-height: 1.6;
+}
+.read-button{
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    background-color: #2CCCC4;
+    padding: 8px 40px;
+    border-color: seashell;
+    color: white;
+}
+.read-shape{
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    background-color:#72EFE9;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+}
+.read-picture{
+    width: 39%;
+    height: 500px;
+    margin:5%;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    width: 90%;
+}
+.learn-outer {
+    background-color: #2CCCC4;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.learn-inner{
+    width: 70%;
+    height: 600px;
+    margin: 7% 5%;
+    flex: 1;
+    display: flex;
+}
+.learn-container{
+    width: 25%;
+    margin-top: 50px;
+    margin-left:170px ;
+    height: 500px;
+    position: relative;
+}
+.learn-picture{
+    width: 45%;
+    margin-left: 30px;
+    height: 550px;
+    position: relative;
+    overflow: visible;
+    display: flex;
+}
+.learn-head{
+    color: white;
+    font-size: 6rem;
+    font-weight: 1900;
+}
+.learn-subhead{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.learn-p{
+    color: white;
+    display: block;
+    margin-bottom: 30px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.learn-button{
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    background-color: #2CCCC4;
+    padding: 8px 40px;
+    border-color: white;
+    color: white;
+}
